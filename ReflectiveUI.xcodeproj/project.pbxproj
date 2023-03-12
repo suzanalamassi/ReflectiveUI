@@ -7,18 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		17DA2E0F29BC579D009173B6 /* ReflectiveUI6App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17DA2E0E29BC579D009173B6 /* ReflectiveUI6App.swift */; };
+		17DA2E0F29BC579D009173B6 /* ReflectiveUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17DA2E0E29BC579D009173B6 /* ReflectiveUIApp.swift */; };
 		17DA2E1129BC579D009173B6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17DA2E1029BC579D009173B6 /* ContentView.swift */; };
 		17DA2E1329BC579E009173B6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 17DA2E1229BC579E009173B6 /* Assets.xcassets */; };
 		17DA2E1629BC579E009173B6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 17DA2E1529BC579E009173B6 /* Preview Assets.xcassets */; };
+		17DA2E2129BC5F5A009173B6 /* SwiftUICam in Frameworks */ = {isa = PBXBuildFile; productRef = 17DA2E2029BC5F5A009173B6 /* SwiftUICam */; };
+		17DA2E2829BC6BCC009173B6 /* NewsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17DA2E2729BC6BCC009173B6 /* NewsView.swift */; };
+		17DA2E2A29BC6BDF009173B6 /* NewsRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17DA2E2929BC6BDF009173B6 /* NewsRowView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		17DA2E0B29BC579D009173B6 /* ReflectiveUI6.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReflectiveUI6.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		17DA2E0E29BC579D009173B6 /* ReflectiveUI6App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReflectiveUI6App.swift; sourceTree = "<group>"; };
+		17DA2E0B29BC579D009173B6 /* ReflectiveUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReflectiveUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		17DA2E0E29BC579D009173B6 /* ReflectiveUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReflectiveUIApp.swift; sourceTree = "<group>"; };
 		17DA2E1029BC579D009173B6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		17DA2E1229BC579E009173B6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		17DA2E1529BC579E009173B6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		17DA2E2229BC608E009173B6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		17DA2E2729BC6BCC009173B6 /* NewsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsView.swift; sourceTree = "<group>"; };
+		17DA2E2929BC6BDF009173B6 /* NewsRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsRowView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,6 +32,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				17DA2E2129BC5F5A009173B6 /* SwiftUICam in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -35,7 +42,7 @@
 		17DA2E0229BC579D009173B6 = {
 			isa = PBXGroup;
 			children = (
-				17DA2E0D29BC579D009173B6 /* ReflectiveUI6 */,
+				17DA2E0D29BC579D009173B6 /* ReflectiveUI */,
 				17DA2E0C29BC579D009173B6 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -43,20 +50,21 @@
 		17DA2E0C29BC579D009173B6 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				17DA2E0B29BC579D009173B6 /* ReflectiveUI6.app */,
+				17DA2E0B29BC579D009173B6 /* ReflectiveUI.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		17DA2E0D29BC579D009173B6 /* ReflectiveUI6 */ = {
+		17DA2E0D29BC579D009173B6 /* ReflectiveUI */ = {
 			isa = PBXGroup;
 			children = (
-				17DA2E0E29BC579D009173B6 /* ReflectiveUI6App.swift */,
-				17DA2E1029BC579D009173B6 /* ContentView.swift */,
-				17DA2E1229BC579E009173B6 /* Assets.xcassets */,
-				17DA2E1429BC579E009173B6 /* Preview Content */,
+				17DA2E2229BC608E009173B6 /* Info.plist */,
+				17DA2E0E29BC579D009173B6 /* ReflectiveUIApp.swift */,
+				17DA2E2C29BC6BFB009173B6 /* Screen */,
+				17DA2E2B29BC6BF4009173B6 /* Views */,
+				17DA2E2D29BC6C0A009173B6 /* Assets */,
 			);
-			path = ReflectiveUI6;
+			path = ReflectiveUI;
 			sourceTree = "<group>";
 		};
 		17DA2E1429BC579E009173B6 /* Preview Content */ = {
@@ -67,12 +75,38 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		17DA2E2B29BC6BF4009173B6 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				17DA2E2729BC6BCC009173B6 /* NewsView.swift */,
+				17DA2E2929BC6BDF009173B6 /* NewsRowView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		17DA2E2C29BC6BFB009173B6 /* Screen */ = {
+			isa = PBXGroup;
+			children = (
+				17DA2E1029BC579D009173B6 /* ContentView.swift */,
+			);
+			path = Screen;
+			sourceTree = "<group>";
+		};
+		17DA2E2D29BC6C0A009173B6 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				17DA2E1229BC579E009173B6 /* Assets.xcassets */,
+				17DA2E1429BC579E009173B6 /* Preview Content */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		17DA2E0A29BC579D009173B6 /* ReflectiveUI6 */ = {
+		17DA2E0A29BC579D009173B6 /* ReflectiveUI */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 17DA2E1929BC579E009173B6 /* Build configuration list for PBXNativeTarget "ReflectiveUI6" */;
+			buildConfigurationList = 17DA2E1929BC579E009173B6 /* Build configuration list for PBXNativeTarget "ReflectiveUI" */;
 			buildPhases = (
 				17DA2E0729BC579D009173B6 /* Sources */,
 				17DA2E0829BC579D009173B6 /* Frameworks */,
@@ -82,9 +116,12 @@
 			);
 			dependencies = (
 			);
-			name = ReflectiveUI6;
+			name = ReflectiveUI;
+			packageProductDependencies = (
+				17DA2E2029BC5F5A009173B6 /* SwiftUICam */,
+			);
 			productName = ReflectiveUI6;
-			productReference = 17DA2E0B29BC579D009173B6 /* ReflectiveUI6.app */;
+			productReference = 17DA2E0B29BC579D009173B6 /* ReflectiveUI.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -102,7 +139,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 17DA2E0629BC579D009173B6 /* Build configuration list for PBXProject "ReflectiveUI6" */;
+			buildConfigurationList = 17DA2E0629BC579D009173B6 /* Build configuration list for PBXProject "ReflectiveUI" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -111,11 +148,14 @@
 				Base,
 			);
 			mainGroup = 17DA2E0229BC579D009173B6;
+			packageReferences = (
+				17DA2E1F29BC5F5A009173B6 /* XCRemoteSwiftPackageReference "SwiftUICam" */,
+			);
 			productRefGroup = 17DA2E0C29BC579D009173B6 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				17DA2E0A29BC579D009173B6 /* ReflectiveUI6 */,
+				17DA2E0A29BC579D009173B6 /* ReflectiveUI */,
 			);
 		};
 /* End PBXProject section */
@@ -137,8 +177,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				17DA2E2A29BC6BDF009173B6 /* NewsRowView.swift in Sources */,
+				17DA2E2829BC6BCC009173B6 /* NewsView.swift in Sources */,
 				17DA2E1129BC579D009173B6 /* ContentView.swift in Sources */,
-				17DA2E0F29BC579D009173B6 /* ReflectiveUI6App.swift in Sources */,
+				17DA2E0F29BC579D009173B6 /* ReflectiveUIApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,11 +308,13 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"ReflectiveUI6/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"ReflectiveUI/Assets/Preview Content\"";
 				DEVELOPMENT_TEAM = 79P2QHXFF7;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_FILE = ReflectiveUI/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "This app needs access to the camera to capture images for reflective text color.";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "This app needs access to the camera to capture images for reflective text color.";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -280,7 +324,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = dev.suzanalamassi.ReflectiveUI6;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.suzanalamassi.ReflectiveUI;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -295,11 +339,13 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"ReflectiveUI6/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"ReflectiveUI/Assets/Preview Content\"";
 				DEVELOPMENT_TEAM = 79P2QHXFF7;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_FILE = ReflectiveUI/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "This app needs access to the camera to capture images for reflective text color.";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "This app needs access to the camera to capture images for reflective text color.";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -309,7 +355,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = dev.suzanalamassi.ReflectiveUI6;
+				PRODUCT_BUNDLE_IDENTIFIER = dev.suzanalamassi.ReflectiveUI;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -320,7 +366,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		17DA2E0629BC579D009173B6 /* Build configuration list for PBXProject "ReflectiveUI6" */ = {
+		17DA2E0629BC579D009173B6 /* Build configuration list for PBXProject "ReflectiveUI" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				17DA2E1729BC579E009173B6 /* Debug */,
@@ -329,7 +375,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		17DA2E1929BC579E009173B6 /* Build configuration list for PBXNativeTarget "ReflectiveUI6" */ = {
+		17DA2E1929BC579E009173B6 /* Build configuration list for PBXNativeTarget "ReflectiveUI" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				17DA2E1A29BC579E009173B6 /* Debug */,
@@ -339,6 +385,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		17DA2E1F29BC5F5A009173B6 /* XCRemoteSwiftPackageReference "SwiftUICam" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/pierreveron/SwiftUICam";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		17DA2E2029BC5F5A009173B6 /* SwiftUICam */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 17DA2E1F29BC5F5A009173B6 /* XCRemoteSwiftPackageReference "SwiftUICam" */;
+			productName = SwiftUICam;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 17DA2E0329BC579D009173B6 /* Project object */;
 }

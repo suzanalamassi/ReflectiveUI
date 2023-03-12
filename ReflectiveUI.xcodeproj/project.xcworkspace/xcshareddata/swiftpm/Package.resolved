@@ -1,0 +1,14 @@
+{
+  "pins" : [
+    {
+      "identity" : "swiftuicam",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/pierreveron/SwiftUICam",
+      "state" : {
+        "branch" : "master",
+        "revision" : "6e85adae49b26d734bf3810b6d237d2688cc976a"
+      }
+    }
+  ],
+  "version" : 2
+}
